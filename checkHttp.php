@@ -51,8 +51,10 @@ ini_set('error_reporting', E_ALL);
         }
 
 //Recuperation du fichier fqdn
-checkFile('urls.txt');
-$lines = file('urls.txt');
+$file_exist = checkFile('urls.txt');
+
+if($file_exist)
+	$lines = file('urls.txt');
 
 //Check Url 
     foreach ($lines as $line => $url){
