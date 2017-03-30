@@ -2,8 +2,8 @@
 
 error_reporting(E_ALL);
 ini_set('error_reporting', E_ALL);
-        
-/*
+
+classe CheckHttpStatus{/*
 * Check if file exist 
 */
         function checkFile($file) {
@@ -67,5 +67,6 @@ if($file_exist)
       	fwrite($file,$elt);
       	fclose($file);
      }
+}
 
 ?>
