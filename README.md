@@ -1,2 +1,10 @@
 # Utils
-Divers script et function pour répondre à des besoins standard ( check mail, parse url, read csv ....)
+Various script and function to meet standard needs (check mail, parse url, read csv ....)
+
+## TYPO3
+
+## Magento
+
+## Wordpress
+
+## Drupal
